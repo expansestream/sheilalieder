@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akira and Mark Wedding</title>
+</head>
+<style>
+    body {
+        background-color: darkkhaki;
+    }
+    #container { 
+        max-width: 23em;
+        margin: 5em auto;
+        box-sizing: border-box;
+    }
+    p {
+        font-family: sans-serif;
+        font-size: x-large;
+    }
+</style>
+<body>
+    <div id="container">
+        <img src="https://github.com/expansestream/akiramark/blob/main/WeddingAnnouncement.jpg?raw=true" height="500" width="auto" alt="Akira & Mark Wedding Announcement">
+        <p></p>
+        <p></p>
+        <p>To RSVP, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvDYcgvo3_nQ1QB9aM9ORGfjaJ4FGP2SXhbjuiiY-VpQuT-Q/viewform?usp=sf_link" target="display">here</a>.</p>
+        <button id="btn">Brasil &lsquo;66</button>
+        <p></p>
+            <dialog id="music">
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/greatest-hits/1440778404"></iframe>
+                <button type="reset" id="cancelmusic">Close</button>
+            </dialog>
+            <script>
+                document.getElementById("btn").addEventListener("click",discreption1,false);
+                function discreption1() {
+                    dialog = document.getElementById("music");
+                    dialog.show();   
+                };
+                document.getElementById("cancelmusic").addEventListener("click",discreption2,false);
+                    function discreption2() {
+                        dialog = document.getElementById("music");
+                        dialog.close();   
+                };
+            </script>
+    </div>
+</body>
+</html> 
