@@ -3,46 +3,76 @@
    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akira and Mark Wedding</title>
+    <title>Sheila Lieder Reception</title>
 </head>
 <style>
-    body {
-        background-color: darkkhaki;
-    }
     #container { 
-        max-width: 23em;
-        margin: 5em auto;
+        max-width: 31em;
+        margin: 1em auto;
         box-sizing: border-box;
-    }
-    p {
         font-family: sans-serif;
-        font-size: x-large;
+        font-size: small;
+    }
+    #logos {
+        display: flex;
+        margin-left: 2em;
+    }
+    ul {
+        margin-left: -.5em;
+    }
+    #invite {
+        background-color:rgb(187, 227, 107);
+        padding: .0625em;
+    }
+    td {
+        width: 8em;
     }
 </style>
 <body>
     <div id="container">
-        <img src="https://github.com/expansestream/akiramark/blob/main/WeddingAnnouncement.jpg?raw=true" height="500" width="auto" alt="Akira & Mark Wedding Announcement">
+        <!---<table>
+            <tbody>
+                <tr><td><img src="https://github.com/expansestream/butterflygarden/blob/main/Jeffco_Dems.png?raw=true" height="100" width="auto" alt="Jeffco Dems Logo"></td><td><img src="https://github.com/expansestream/butterflygarden/blob/main/American_Flag.jpg?raw=true" height="100" width="auto" alt="American Flag"></td></tr>
+            </tbody>
+        </table>--->
+        <div id="logos">
+            <img src="https://github.com/expansestream/butterflygarden/blob/main/Jeffco_Dems.png?raw=true" height="100" width="auto" alt="Jeffco Dems Logo">
+            <img src="https://github.com/expansestream/butterflygarden/blob/main/American_Flag.jpg?raw=true" height="100" width="auto" alt="American Flag">
+        </div>
+        <ul>
+            <li>Are you interested in learning about the Democratic Party?</li>
+            <li>Do you have questions about elections?</li>
+            <li>Do you want to know who your local representatives are?</li>
+            <li>Do you want to get more involved in electing Democrats?</li>
+        </ul>
+        <dl>
+            <dd>We are your local resources for the Democratic Party.</dd>
+            <dd>We are here to answer all your questions.</dd>
+            <dd>Please contact us if we can be of service to you.</dd>
+        </dl>
+        <div id="invite">
+            <dl>
+                <dd style="margin-left: 1em">You are invited!</dd>
+                <dd style="margin-left: 2em"><em>Hors d&rsquo;oeuvre reception for State Representative Sheila Lieder</em></dd>
+                <dd style="margin-left: 2em"><em>Tuesday afternoon, June 18th 5:30-7:00 pm</em></dd>
+                <dd style="margin-left: 2em"><em>R.S.V.P., click <a href="https://docs.google.com/forms/d/e/1FAIpQLSfs9l2dKi8FjELAFc0GzfDGexeGih6a048VOwWLe4S8yd1DaA/viewform?usp=sf_link" target="display">here</a>.</em></dd>
+            </dl>
+        </div>
+        <dl>
+            <dd>Register to vote: <a href="https://www.coloradosos.gov/voter/pages/pub/home.xhtml" target="display">GoVoteColorado.com</a>.</dd>
+            <dd>JeffCo Democratic Party: <a href="https://www.jeffcodems.org/" target="display">JeffCoDems.org</a>.</dd>
+            <dd>Email: <a href="mailto:office@jeffcodems.org">Office@JeffCoDems.org</a>.</dd>
+        </dl>
         <p></p>
+        <p style="text-align: center">Printed by volunteers</p>
         <p></p>
-        <p>To RSVP, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvDYcgvo3_nQ1QB9aM9ORGfjaJ4FGP2SXhbjuiiY-VpQuT-Q/viewform?usp=sf_link" target="display">here</a>.</p>
-        <button id="btn">Brasil &lsquo;66</button>
-        <p></p>
-            <dialog id="music">
-                <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/greatest-hits/1440778404"></iframe>
-                <button type="reset" id="cancelmusic">Close</button>
-            </dialog>
-            <script>
-                document.getElementById("btn").addEventListener("click",discreption1,false);
-                function discreption1() {
-                    dialog = document.getElementById("music");
-                    dialog.show();   
-                };
-                document.getElementById("cancelmusic").addEventListener("click",discreption2,false);
-                    function discreption2() {
-                        dialog = document.getElementById("music");
-                        dialog.close();   
-                };
-            </script>
+        <table>
+            <tbody>
+                <tr><td>Erika Kenney</td><td></td><td>John Brand</td></tr>
+                <tr><td>(303) 988-8598</td><td></td><td>(303) 638-1965</td></tr>
+                <tr><td>kenneyels@gmail.com</td><td></td><td>jfarmsboulder@gmail.com</td></tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html> 
